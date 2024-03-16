@@ -1,0 +1,30 @@
+.container{
+   min-height: 100vh;
+    display: flex;
+    background: rgb(136, 134, 134);
+    padding: 1rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center  ;
+    gap: 1rem;
+}
+
+.card{
+    flex-flow: column;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(250, 250, 250);
+    padding: 16px;
+}
+
+button {
+    background-color: rgb(250, 29, 29);
+}
+
+@media screen and (max-width:800px){
+    .container{
+        flex-flow: column;
+    }
+}
